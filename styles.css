@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* *{
+    padding: 0;
+} */
+body {
+    background-color: rgb(251 251 251);
+    /* background-image: url (img_background.png); */
+    color: rgb(36, 39, 44);
+    font-size: 16px;
+    font-weight: normal;
+    font-family:'Roboto', sans-serif; 
+    
+    /* font: normal 16px sans-serif; */
+}
+a {
+    color: #120606;
+    text-decoration: underline;
+}
+
+a:hover {
+     color: blue;
+
+}
+
+.avatar{
+    width: 170px;
+    border-radius: 50%;
+    box-shadow: -6px 3px 20px rgba(0, 0, 0, 0.25);
+}
+
+.img_work_table{
+    width: 400px;
+    float: right;
+    border-radius: 10px;
+}     
+
+.info{
+    /* padding: 15px 20px; */
+    margin: 20px 80px;
+    }
+
+.info h1{
+    color: #120606;
+}
+
+.info p {
+    color:#86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    /* word-spacing: 50 px;         */
+}
+
+.p-contact{
+    display: inline; 
+    color: rgb(67, 70, 77);
+}
+.container {
+    max-width: 750;
+    margin: auto;
+}
+
+.bg-yellow {
+background: #fff9dc;
+}
+
+.bg-green {
+    background: rgb(202, 238, 229);
+}
+
+.bg-red {
+    background: rgb(226, 200, 166);
+}
+.card {
+    padding: 5px 15px;
+    margin: 20px 80px;;
+    border-radius: 10px;
+}
+.list {
+    padding: 0  0;
+    
+}
+
+.list li {
+        list-style: none;
+        margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+    color:rgba(68, 74, 82, 0.938);
+}
+
+.table td {
+    padding-bottom: 5px;
+    color:rgb(96, 104, 116);
+    
+}
+.line td {
+    border-bottom: 1px solid rgb(214, 198, 180);
+}
+
+
+
